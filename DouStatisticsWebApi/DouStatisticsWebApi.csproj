@@ -170,7 +170,6 @@
     <Content Include="Views\Home\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="App_Data\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
@@ -185,6 +184,16 @@
     <None Include="packages.config" />
     <Content Include="Scripts\jquery-3.3.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.3.1.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\DouStatisticsWS\DouStatistics.DAL\DouStatistics.DAL.csproj">
+      <Project>{4a9d4476-410a-4c5d-9697-98a0d6d17f01}</Project>
+      <Name>DouStatistics.DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DataAnalysis\DataAnalysis.csproj">
+      <Project>{bf7d1f9a-15bf-4ca1-b193-c28920c32eb8}</Project>
+      <Name>DataAnalysis</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
