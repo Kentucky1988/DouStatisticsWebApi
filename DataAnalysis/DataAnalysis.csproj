@@ -52,6 +52,8 @@
     <Compile Include="DTO\SearchKeywordsDTO.cs" />
     <Compile Include="DTO\SearchResultDTO.cs" />
     <Compile Include="DTO\WorkingServiceDTO.cs" />
+    <Compile Include="Infrastructure\Mapper.cs" />
+    <Compile Include="Models\KeyWordDto.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -64,5 +66,6 @@
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
