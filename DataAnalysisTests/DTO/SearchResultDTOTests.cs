@@ -1,5 +1,4 @@
-﻿using DataAnalysis.DTO;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 using System.Linq;
 using DataAnalysisTests.TestRepository;

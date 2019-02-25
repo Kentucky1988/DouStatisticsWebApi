@@ -48,8 +48,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DTO\LogExceptionDTO.cs" />
     <Compile Include="DTO\SearchKeywordsDTO.cs" />
     <Compile Include="DTO\SearchResultDTO.cs" />
+    <Compile Include="DTO\WorkingServiceDTO.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
