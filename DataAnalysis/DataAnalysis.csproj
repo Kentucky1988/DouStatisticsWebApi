@@ -54,6 +54,7 @@
     <Compile Include="DTO\WorkingServiceDTO.cs" />
     <Compile Include="Infrastructure\Mapper.cs" />
     <Compile Include="Models\KeyWordDto.cs" />
+    <Compile Include="Models\RequestPartOfList.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
