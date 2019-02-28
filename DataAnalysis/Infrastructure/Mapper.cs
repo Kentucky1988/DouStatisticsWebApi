@@ -11,7 +11,7 @@ namespace DataAnalysis.Infrastructure
             {
                 Id = keyWord.Id,
                 KeyWord = keyWord.KeyWord,
-                IsCategory = keyWord.IsCategory
+                IsCategory = keyWord.IsCategory ?? false
             };
 
             return keyWordDto;

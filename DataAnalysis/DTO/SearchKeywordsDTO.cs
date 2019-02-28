@@ -23,8 +23,8 @@ namespace DataAnalysis.DTO
         public List<KeyWordDto> GetAll()
         {
             return _dB.GetAll()
-                .Select( c => new KeyWordDto { Id = c.Id, KeyWord = c.KeyWord, IsCategory = c.IsCategory})
-                .ToList();
+                      .Select( c => new KeyWordDto { Id = c.Id, KeyWord = c.KeyWord, IsCategory = (c.IsCategory ?? false)})
+                      .ToList();
         }
         
         public KeyWordDto Get(int id)
